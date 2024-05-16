@@ -615,14 +615,14 @@
     @media screen and (max-width: 1150px) {
      
      .hero {
-      padding: 40px 0;
+      
       background-size: cover; 
       background-position: center; 
-      margin-top: 5rem;
+      
       
     }
    .hero-content {
-      max-width: 300px; 
+    padding-top: 50px;
      margin-left: 0;
       text-align: center;
           
@@ -630,7 +630,7 @@
   .hero-content h1 {
       font-size: 1rem; 
       margin-left: 0.5rem;
-      margin-top: -4rem;
+
     }
     .hero-content p {
       font-size: 1rem; 
@@ -689,12 +689,11 @@ padding: 40px 0;
   .reservation-form form input,
   .reservation-form form textarea {
      padding: 8px;
+      width: 100%;
       
    }
 
-        .tbox{
-            width: 100%;
-        }
+        
    
   .reservation-form form button {
      padding: 8px 16px;
