@@ -689,10 +689,13 @@ padding: 40px 0;
   .reservation-form form input,
   .reservation-form form textarea {
      padding: 8px;
-      margin:7px;
-      width: 100%;
       
    }
+
+       input[type="time"],
+        input[type="date"] {
+	height: 2.375rem;
+} 
 
         
    
