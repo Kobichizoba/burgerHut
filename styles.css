@@ -689,8 +689,12 @@ padding: 40px 0;
   .reservation-form form input,
   .reservation-form form textarea {
      padding: 8px;
-      width: 100%;
+      
    }
+
+        .tbox{
+            width: 100%;
+        }
    
   .reservation-form form button {
      padding: 8px 16px;
